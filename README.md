@@ -85,6 +85,7 @@ This is a fully virtual event for 2025. In-person format coming in future years.
   - [Deployment](#deployment)
   - [Ethics](#ethics)
   - [Frameworks](#frameworks)
+  - [Multi-Agent Syndicates & Orchestration](#multi-agent-syndicates--orchestration)
   - [LLM Models](#llm-models)
   - [Prompt Engineering](#prompt-engineering)
   - [Security](#security)
@@ -995,6 +996,25 @@ The key tools for building AI agents include benchmarks (to evaluate performance
 - [Upsonic](https://github.com/upsonic/upsonic) - Reliable agent framework that supports MCP. [github](https://github.com/upsonic/upsonic)
 - [Vectara-agentic](https://github.com/vectara/py-vectara-agentic) - Vectara-agentic is a framework for creating AI Assistants and agents using Vectara. [github](https://github.com/vectara/py-vectara-agentic)
 - [VoltAgent](https://github.com/VoltAgent/voltagent) - An open source TypeScript Framework for building AI agents with built-in LLM observability. [github](https://github.com/voltagent/voltagent)
+
+### Multi-Agent Syndicates & Orchestration
+A syndicate is a group of agents that coordinate — through handoffs, message passing, shared state, or a standard protocol — to solve problems no single agent can. These frameworks, protocols, and simulation testbeds cover the coordination layer of multi-agent systems.
+
+- [A2A Protocol (Agent2Agent)](https://github.com/a2aproject/A2A) - Open Linux Foundation protocol enabling communication and interoperability between opaque agentic applications. [github](https://github.com/a2aproject/A2A) | [docs](https://a2a-protocol.org/)
+- [AG-UI Protocol](https://github.com/ag-ui-protocol/ag-ui) - Agent-User Interaction protocol that streams agent events and shared state into frontend applications. [github](https://github.com/ag-ui-protocol/ag-ui) | [website](https://ag-ui.com)
+- [Agent Network Protocol (ANP)](https://github.com/agent-network-protocol/AgentNetworkProtocol) - Open protocol aiming to be the "HTTP of the agent web", enabling agent-to-agent discovery and communication. [github](https://github.com/agent-network-protocol/AgentNetworkProtocol) | [docs](https://agent-network-protocol.com/)
+- [AGNTCY Agent Directory](https://github.com/agntcy/dir) - Distributed service for announcing and discovering Multi-Agent Systems within the AGNTCY Internet of Agents. [github](https://github.com/agntcy/dir) | [docs](https://docs.agntcy.org)
+- [CAMEL OWL](https://github.com/camel-ai/owl) - Multi-agent framework from CAMEL for orchestrating agents and tools on real-world task automation. [github](https://github.com/camel-ai/owl) | [website](https://www.camel-ai.org/)
+- [Generative Agents](https://github.com/joonspk-research/generative_agents) - Stanford's interactive simulacra of human behavior where agents plan, remember, and socially interact. [github](https://github.com/joonspk-research/generative_agents) | [paper](https://arxiv.org/abs/2304.03442)
+- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - Code-first toolkit for building and orchestrating hierarchical multi-agent systems with graph-based workflows. [github](https://github.com/google/adk-python) | [docs](https://google.github.io/adk-docs/)
+- [Google DeepMind Concordia](https://github.com/google-deepmind/concordia) - Library for generative social simulation, building cooperative multi-agent worlds for research. [github](https://github.com/google-deepmind/concordia) | [paper](https://arxiv.org/abs/2404.10209)
+- [Hugging Face smolagents](https://github.com/huggingface/smolagents) - Minimal library for code-writing agents that supports hierarchical multi-agent orchestration. [github](https://github.com/huggingface/smolagents) | [docs](https://huggingface.co/docs/smolagents)
+- [Internet of Agents (IoA)](https://github.com/OpenBMB/IoA) - Framework enabling heterogeneous agents to discover, form teams, and collaborate over a network-like architecture. [github](https://github.com/OpenBMB/IoA) | [paper](https://arxiv.org/abs/2407.07061)
+- [Langroid](https://github.com/langroid/langroid) - Python framework for multi-agent programming where agents collaborate as message-passing "cells". [github](https://github.com/langroid/langroid) | [docs](https://langroid.github.io/langroid/)
+- [Microsoft TinyTroupe](https://github.com/microsoft/TinyTroupe) - LLM-powered multi-agent persona simulation for business and social insight via programmable meetings. [github](https://github.com/microsoft/TinyTroupe)
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io) - Open standard for connecting agents to tools, data, and other agents via a universal interface. [website](https://modelcontextprotocol.io) | [github](https://github.com/modelcontextprotocol) | [docs](https://modelcontextprotocol.io/docs)
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Production-ready Python SDK for multi-agent workflows using agents, handoffs, guardrails, and sessions. [github](https://github.com/openai/openai-agents-python) | [docs](https://openai.github.io/openai-agents-python/)
+- [SOTOPIA](https://github.com/sotopia-lab/sotopia) - Simulation environment for evaluating the social intelligence of agents in open-ended multi-agent interactions. [github](https://github.com/sotopia-lab/sotopia) | [paper](https://arxiv.org/abs/2310.11667)
 
 ### LLM Models
 - [42Dot_Llm](https://github.com/42dot/42dot_LLM) - 42dot LLM consists of a pre-trained language model, 42dot LLM-PLM, and a fine-tuned model, 42dot LLM-SFT, which is trained to respond to …
